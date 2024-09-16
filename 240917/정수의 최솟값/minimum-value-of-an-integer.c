@@ -15,11 +15,11 @@ int main() {
 int FindMin(int a, int b, int c){
     int min;
     
-    if(a>b && c>b)
+    if(a>=b && c>=b)
         min = b;
-    if(b>a&&c>a)
+    if(b>=a && c>=a)
         min = a;
-    if(a>c&&b>c)
+    if(a>=c && b>=c)
         min = c;
 
     return min;
