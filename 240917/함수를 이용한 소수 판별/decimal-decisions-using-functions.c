@@ -11,6 +11,9 @@ int main() {
 int Prime(int a, int b){
     
     int sum = 0;
+    if(a == 2){
+        sum = 2;
+    }
     for(int i = a; i<b+1; i++){
         for(int j = 2; j<i; j++){
             if(i%j){
